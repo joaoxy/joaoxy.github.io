@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veja qual tá pagando mais!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Sua Logo" class="logo" style="width: 100px; height: auto;" style="margin-top: 20px;">
+        <marquee id="scroller" style="display: none;"></marquee>
+        <a id="bannerLink" href="#">
+            <img src="images/banner.png" alt="Banner" class="banner">
+        </a>
+        <h1>Veja qual jogo tá PAGANDO MAIS:</h1>
+        <button onclick="carregar()" id="btnCarregar">Clique aqui e veja!</button>
+        <div class="success-message" id="successMessage"><span style="color: #00FF03;">RTP carregado com SUCESSO!</span></div>
+        <div class="cronometro" id="cronometro"></div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Caixa 1 -->
+            <div class="caixa">
+                <img class="imagem" src="images/tiger.png" alt="Imagem 1">
+                <p class="nome">Fortune Tiger</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText1"></div>
+                    <div class="progress-bar-inner" id="barraProgresso1"></div>
+                    <div class="progress-text" id="progressoTexto1"></div>
+                </div>
+                <div class="resultado" id="resultado1"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(1, 'url1')">Jogue agora</button></div>
+            </div>
+
+            <!-- Caixa 2 -->
+            <div class="caixa">
+                <img class="imagem" src="images/dragon.png" alt="Imagem 2">
+                <p class="nome">Fortune Dragon</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText2"></div>
+                    <div class="progress-bar-inner" id="barraProgresso2"></div>
+                    <div class="progress-text" id="progressoTexto2"></div>
+                </div>
+                <div class="resultado" id="resultado2"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(2, 'url2')">Jogue agora</button></div>
+            </div>
+
+            <!-- Caixa 3 -->
+            <div class="caixa">
+                <img class="imagem" src="images/ox.png" alt="Imagem 3">
+                <p class="nome">Fortune OX</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText3"></div>
+                    <div class="progress-bar-inner" id="barraProgresso3"></div>
+                    <div class="progress-text" id="progressoTexto3"></div>
+                </div>
+                <div class="resultado" id="resultado3"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(3, 'url3')">Jogue agora</button></div>
+            </div>
+
+            <!-- Caixa 4 -->
+            <div class="caixa">
+                <img class="imagem" src="images/mouse.png" alt="Imagem 4">
+                <p class="nome">Fortune Mouse</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText4"></div>
+                    <div class="progress-bar-inner" id="barraProgresso4"></div>
+                    <div class="progress-text" id="progressoTexto4"></div>
+                </div>
+                <div class="resultado" id="resultado4"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(4, 'url4')">Jogue agora</button></div>
+            </div>
+
+            <!-- Caixa 5 -->
+            <div class="caixa">
+                <img class="imagem" src="images/coelho.png" alt="Imagem 5">
+                <p class="nome">Fortune Rabbit</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText5"></div>
+                    <div class="progress-bar-inner" id="barraProgresso5"></div>
+                    <div class="progress-text" id="progressoTexto5"></div>
+                </div>
+                <div class="resultado" id="resultado5"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(5, 'url5')">Jogue agora</button></div>
+            </div>
+
+            <!-- Caixa 6 -->
+            <div class="caixa">
+                <img class="imagem" src="images/gold.png" alt="Imagem 6">
+                <p class="nome">Gemstones Gold</p>
+                <div class="progress-bar">
+                    <div class="loading-text" id="loadingText6"></div>
+                    <div class="progress-bar-inner" id="barraProgresso6"></div>
+                    <div class="progress-text" id="progressoTexto6"></div>
+                </div>
+                <div class="resultado" id="resultado6"></div>
+                <div class="btnJogarAgora" style="display: none;"><button onclick="jogarAgora(6, 'url6')">Jogue agora</button></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>
